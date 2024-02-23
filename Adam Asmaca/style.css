@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    letter-spacing: 35px;
+    position: relative;
+    top: 30px;
+}
+
+#baslik {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+article{
+    position: relative;
+    top: 50px;
+}
+#adam1{
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 0px;
+    position: absolute;
+    left: 40%;
+}
+#adam2{
+    height: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 150px;
+    position: absolute;
+    left: 40%;
+    top:-4.5px;
+}
+#adam3{
+    height: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 0px;
+    position: absolute;
+    left: 96.5%;
+}
+#adam4{
+    height: 70px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(255, 255, 255);
+    width: 70px;
+    position: absolute;
+    right: -35px;
+    top: 45px;
+    border-radius: 50px;
+}
+#adam5{
+    height: 70px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 0px;
+    position: absolute;
+    top: 65px;
+    right: 25px;
+}
+#adam6{
+    height: 9px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right:-5px;
+    transform: rotate(-45deg);
+}
+#adam7{
+    height: 9px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right:-44px;
+    transform: rotate(45deg);
+}
+#adam8{
+    height: 9px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    right:-5px;
+    transform: rotate(-45deg);
+}
+#adam9{
+    height: 9px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    right:-44px;
+    transform: rotate(45deg);
+}
+#kelime{
+    width: 200px;
+    opacity: 0.7;
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.harf{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+.harfler{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+#harfinput{
+    width: 40px;
+    opacity: 0.7;
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
